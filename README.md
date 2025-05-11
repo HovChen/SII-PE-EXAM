@@ -1,4 +1,4 @@
-<h1 align="center">Movie Recommendation Reranking Task</h1>
+<h1 align="center">🎬 Movie Recommendation Reranking Task</h1>
 
 <p align="center">
   <a href="./README.md">English</a> |
@@ -10,13 +10,13 @@
   which personalizes the ranking of candidate movies based on users' viewing history.
 </p>
 
-## Features
+## ✨ Features
 
 - Uses DeepSeek API for movie recommendation reranking
 - Personalizes recommendations based on user viewing history
 - Evaluates recommendation quality using NDCG@10
 
-## Usage
+## 🚀 Usage
 
 1. Create a `config.py` file and set your API key:
    ```python
@@ -29,13 +29,13 @@
    python main.py
    ```
 
-## File Description
+## 📁 File Description
 
 - `main.py`: Main program that processes data and calls the API
 - `template.py`: Prompt template construction and output parsing
 - `config.py`: API configuration (needs to be created)
 - `val.jsonl`: Validation dataset
 
-## Result
+## 📊 Results
 
 - Avg NDCG@10: about 0.65 ~ 0.71
